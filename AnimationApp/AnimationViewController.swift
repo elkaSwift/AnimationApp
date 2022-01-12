@@ -41,6 +41,7 @@ Deley: \(String (format: "%.2f", animation.numberOfDeley))
         
         AnimationTextView.animate()
         animation = Animation.getAnimation()
+        AnimationButton.setTitle(animation.animation, for: .normal)
     }
 }
 
