@@ -22,7 +22,8 @@ class AnimationViewController: UIViewController {
         AnimationTextView.layer.cornerRadius = 10
         
     }
-
+    
+    //MARK: - IBActions
     @IBAction func AnimationButton(_ sender: SpringButton) {
         AnimationButton.setTitle(animation.animation, for: .normal)
         AnimationTextView.text = """
@@ -41,7 +42,5 @@ Deley: \(String (format: "%.2f", animation.numberOfDeley))
         AnimationTextView.animate()
         animation = Animation.getAnimation()
     }
-    
-    
 }
 

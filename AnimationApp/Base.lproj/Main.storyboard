@@ -20,7 +20,7 @@
                                 <rect key="frame" x="25" y="80" width="270" height="128"/>
                                 <color key="backgroundColor" red="0.62352941176470589" green="0.62745098039215685" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="o75-Zt-po6" secondAttribute="height" multiplier="135:64" id="Sg6-s1-SEo"/>
+                                    <constraint firstAttribute="height" constant="128" id="hoO-U9-29N"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
@@ -49,10 +49,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="o75-Zt-po6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="7Sr-S9-idA"/>
-                            <constraint firstItem="o75-Zt-po6" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="135:284" id="WCF-Hf-iHS"/>
+                            <constraint firstItem="o75-Zt-po6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="9M5-jW-b6f"/>
+                            <constraint firstItem="o75-Zt-po6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HGe-9o-Yjo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bie-3C-OqW" secondAttribute="bottom" constant="80" id="dQd-7d-af3"/>
                             <constraint firstItem="Bie-3C-OqW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gTu-Lz-IvN"/>
-                            <constraint firstItem="o75-Zt-po6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sCS-RB-0EG"/>
                             <constraint firstItem="Bie-3C-OqW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="wZS-gP-BBE"/>
                         </constraints>
                     </view>
